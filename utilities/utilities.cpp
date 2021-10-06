@@ -89,11 +89,11 @@ int sortStudentData(std::vector<KP::studentData> &allstudentData,KP::SORT_TYPE s
 
 	switch (st){
 		case KP::NAME:
-			sort(allstudentData.begin(), allstudentData.end(), compareName);
+			//sort(allstudentData.begin(), allstudentData.end(), compareName);
 			break;
 
 		case KP::FINAL_GRADE:
-			sort(allstudentData.begin(), allstudentData.end(), compareFinal);
+			//sort(allstudentData.begin(), allstudentData.end(), compareFinal);
 			break;
 	}
 	return SUCCESS;
